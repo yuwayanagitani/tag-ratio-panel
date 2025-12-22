@@ -119,7 +119,7 @@ def compute_tag_ratios(
         total_den += int(dcnt)
         total_num += int(ncnt)
 
-    rows.sort(key=lambda r: (-r["pct"], -r["den"], r["deck"].lower()))
+    rows.sort(key=lambda r: (str(r.get("deck", "")).casefold(), -int(r.get("den", 0))))
     rows = rows[: max_rows if max_rows > 0 else len(rows)]
 
     total_pct = (total_num / total_den * 100.0) if total_den else 0.0

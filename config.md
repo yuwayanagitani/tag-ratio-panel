@@ -19,3 +19,15 @@ Anki標準検索クエリで母集団を指定（例: deck:医学 -is:suspended�
 
 ## max_rows
 表示するデッキ行数の上限（多いときの抑制）
+
+## pct_bands
+パーセント帯→色の対応。
+
+- 判定: min <= pct < max
+- 例:
+[
+  {"min":0,"max":40,"color":"#e53935"},
+  {"min":40,"max":70,"color":"#fb8c00"},
+  {"min":70,"max":90,"color":"#43a047"},
+  {"min":90,"max":101,"color":"#1e88e5"}
+]

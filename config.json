@@ -1,5 +1,6 @@
 {
   "ui_target": "main",
+  "auto_update_on_reviewer_close": true,
   "search_scope": "deck:*",
   "tags": ["needs_coverage_key"],
   "tag_mode": "OR",

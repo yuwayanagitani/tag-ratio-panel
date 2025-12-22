@@ -53,3 +53,5 @@ local_config.json
 dist
 build
 .zip
+
+userfiles

@@ -1,0 +1,8 @@
+{
+  "ui_target": "main",
+  "search_scope": "deck:*",
+  "tags": ["needs_coverage_key"],
+  "tag_mode": "OR",
+  "min_cards": 0,
+  "max_rows": 30
+}
